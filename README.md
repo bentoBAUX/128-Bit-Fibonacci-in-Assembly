@@ -35,3 +35,11 @@ This setup allows efficient handling of large Fibonacci values by pairing 64-bit
 
 
 Details in implementation can be found in the comments of `fibo.S`.
+
+
+## C Implementation
+
+I just used Gary (ChatGPT) to generate this part as it wasn't the focus of the task. 
+
+- `void uint128_to_string(unsigned __int128 num, char *str)` allows the 128-Bit integers to be printed as a string.
+- `void uint128_to_hex_string(unsigned __int128 num, char *str)` allows the 128-Bit integers to be printed in hex as a string.
