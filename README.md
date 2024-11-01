@@ -14,7 +14,7 @@ Function fibonacciLoop(nthNumber):
     For i from 1 to nthNumber - 1:
         nMinus2 = nMinus1
         nMinus1 = n
-        Set n = nMinus2 + nMinus1
+        n = nMinus2 + nMinus1
 
     Return n
 ```
