@@ -48,7 +48,6 @@ fibonacci:
     inc rcx
     jmp .loop
 
-
 .overflow:
     mov rax, 0xFFFFFFFFFFFFFFFF
     mov rdx, 0xFFFFFFFFFFFFFFFF
