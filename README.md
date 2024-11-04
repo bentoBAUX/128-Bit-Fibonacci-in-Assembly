@@ -11,12 +11,12 @@ fibonacci(nthNumber):
     nMinus1 = 0
     n = 1
 
-    For i from 1 to nthNumber - 1:
+   for i from 1 to nthNumber - 1:
         nMinus2 = nMinus1
         nMinus1 = n
         n = nMinus2 + nMinus1
 
-    Return n
+    return n
 ```
 
 # Assembly implementation
