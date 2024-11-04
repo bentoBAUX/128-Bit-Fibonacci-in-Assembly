@@ -6,7 +6,7 @@ The Fibonacci sequence is a series of numbers where each term is the sum of the 
 # Pseudocode
 
 ```
-Function fibonacciLoop(nthNumber):
+fibonacci(nthNumber):
     nMinus2 = 0
     nMinus1 = 0
     n = 1
